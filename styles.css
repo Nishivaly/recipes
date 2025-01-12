@@ -10,9 +10,11 @@ body {
 
 .title {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: white;
     font-size: 48px;
+    border-bottom: 3px white solid;
+    margin-bottom: 20px;
 }
 
 .menu {
