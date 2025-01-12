@@ -1,18 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(31, 18, 65);
+    background-color: rgb(28, 29, 68);
 }
 
-h1,
-ul {
-    color: white;
+.title {
     text-align: center;
+    padding: 30px;
+    color: white;
 }
 
-ul {
-    padding-left: 0;
-    list-style-position: inside;
-}
-
-li a {
-    color: red;
+.recipe {
+    background-color: rgb(119, 110, 24);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+    height: 2%;
+    border: 2px white solid;
+    display: block;
 }
